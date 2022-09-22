@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiss Watches</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <h1 id="checkout-title">Swiss Watches</h1>
+    <main>
+      <div id="products-preview">
+        <div id="product-painel">
+          <div class="products">
+            <div class="product">
+              <img src="pexels-pixabay-68201.jpg" alt="" />
+              <div class="product-info">
+                <h2>Brown Black</h2>
+                <div class="product-price">
+                  <p>
+                    <strong>225.98</strong>
+                    <span class="line-through">334.99</span>
+                  </p>
+                </div>
+                <div class="quantity-controller">
+                  <i class="fa-solid fa-minus"></i>
+                  <p class="quantity">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="product-removal">
+                  <button class="remove-product">Remove</button>
+                </div>
+                <div class="product-line-price">225.98</div>
+              </div>
+            </div>
+
+            <div class="product">
+              <img src="pexels-pixabay-47856.jpg" alt="" />
+              <div class="product-info">
+                <h2>Rolex Style</h2>
+                <div class="product-price">
+                  <p>
+                    <strong>445.99</strong>
+                    <span class="line-through">554.99</span>
+                  </p>
+                </div>
+                <div class="quantity-controller">
+                  <i class="fa-solid fa-minus"></i>
+                  <p class="quantity">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="product-removal">
+                  <button class="remove-product">Remove</button>
+                </div>
+                <div class="product-line-price">445.99</div>
+              </div>
+            </div>
+
+            <div class="product">
+              <img src="pexels-david-bartus-295884.jpg" alt="" />
+              <div class="product-info">
+                <h2>Antique Clock</h2>
+                <div class="product-price">
+                  <p>
+                    <strong>974.99</strong>
+                    <span class="line-through">1224.99</span>
+                  </p>
+                </div>
+                <div class="quantity-controller">
+                  <i class="fa-solid fa-minus"></i>
+                  <p class="quantity">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="product-removal">
+                  <button class="remove-product">Remove</button>
+                </div>
+                <div class="product-line-price">974.99</div>
+              </div>
+            </div>
+          </div>
+          <div class="buy-detail" id="cart-subtotal">
+            <p>Subtotal</p>
+            <p>0</p>
+          </div>
+          <div class="buy-detail" id="cart-tax">
+            <p>Tax(%18)</p>
+            <p>0</p>
+          </div>
+          <div class="buy-detail" id="cart-shipping">
+            <p>Shipping</p>
+            <p>0</p>
+          </div>
+          <div class="buy-detail" id="cart-total">
+            <p>Total</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
